@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My website</title>
+</head>
+<style>
+header{
+	width:100%;
+	height:5vw;
+	background-color:#3B78A5;
+	display:flex;
+	}
+header:hover{
+	/*background-color: #2B5D84;*/
+	/*background-color: #1F7A8C;*/
+	background-color: #5A4FCF;
+}
+nav{
+	width:40%;
+	height:4vw;
+	margin-top:10px;
+	margin-left:500px;
+	display:flex;
+	/*background-color:green;*/
+}
+nav ul{
+	display:flex;
+	gap:90px;
+}
+nav ul li {
+	font-size:40px;
+	list-style:none;
+	color:#242424;
+}
+header nav ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+header nav ul li a:hover{
+	/*color:Brown;*/
+	color:#FFD700;
+	text-decoration:underline;
+}
+.main_image img{
+	width:100%;
+	height:40vw;
+}
+.Section2{
+	width:100%;
+	height: 9vw;
+	background-color:black;
+}
+.Section2 ul{
+	display:flex;
+	gap:300px;
+	text-align:center;
+	margin-left:300px;
+	color:white;
+}
+.Section2 ol{
+	display:flex;
+	gap:150px;
+	text-align:center;
+	margin-left:200px;
+	color:white;
+}
+
+.Section2 ol li{
+	list-style:none;
+	font-size:40px;
+	
+}
+.Section2 ul li{
+	list-style:none;
+	font-size:60px;
+	margin-top:10px;
+	color:#FFA500;
+}
+.Section1{
+	width:100%;
+	height:20vw;
+	background-color:#3B78A5;
+	padding-top:25px ;
+}
+.Section1 h1{
+	text-align:center;
+	color:#FFA500;
+	font-size:40px;
+}
+.paragraph{
+	width:66%;
+	height:12vw;
+	/*background-color:green;*/
+	text-align:center;
+	align-items:center;
+	margin-left:350px;
+	font-size:30px;
+	text-align:justify;
+	color:	#9ACD32;
+
+}
+.Section1 button{
+	text-align:center;
+	margin-left:500px;
+	width:15%;
+	height:3vw;
+	font-size:25px;
+	background-color:#FFA500;
+	color:white;
+	border:3ox solid red;
+	text-decoration:none;
+	list-style:none;
+}
+.Section1 button a{
+	text-decoration:none;
+	list-style:none;
+}
+.main{
+	width:100%;
+	height:35vw;
+	background-color:#2F2F2F;
+}
+.main h1{
+	font-size:40px;
+	text-align:center;
+	color:#FFA500;
+}
+.main .image img{
+	border:1px do;
+	width:19%;
+	height:15vw;
+	margin-left:5px;
+	border:5px solid #FFA500;
+}
+body{
+	background-color:#3A357A;
+}
+.Section3{
+	width:100%;
+	height:30vw;
+	background-color:#0f172a;
+	display:flex;
+	gap:100px;
+}
+.Section3 .information1{
+	 width:50%;
+	 height:29vw;
+}
+.Section3 .information2{
+	 width:50%;
+	 height:29vw;
+}
+.Section3 h1{
+	text-align:center;
+	font-size:30px;	
+	color:white;
+}
+.Section3 h2{
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+.button{
+	width:100%;
+	height:5vw;
+	background-color:#8B0000;
+	text-align:center;
+}
+.button button{
+	width:15%;
+	height:3vw;
+	margin-top:25px;
+	font-size:30px;
+	color:#B22222;
+	background-color: #FF6347;
+	color:white;
+	border-radius:20%;
+}
+.button:hover{
+	background-color:#020617;
+}
+.button button:hover{
+	background-color:firebrick;
+}
+.team{
+	width:100%;
+	height:40vw;
+	background-color:#0f172a;
+}
+.team:hover{
+	background-color:#020617;
+	border:2px dashed #FFA500;
+}
+.team h1{
+	text-align:center;
+	font-size:40px;
+	color:#FFA500;
+}
+.team_images1{
+	width:95%;
+	height:16vw;
+	background-color:blue;
+	margin-left:50px;
+	display:flex;
+}
+.team .team_images1 .Altaf_Hussain{
+	width:20%;
+	height:15vw;
+	background-color:green;
+	text-align:center;
+	padding-top:12px;
+	font-size:19px;
+	color:#e0f2fe;
+	background-color:#1e3a8a; 
+	border-color:#38bdf8; 
+	border:3px solid #172554;
+}
+.team .team_images1 .Altaf_Hussain img:hover{
+	border-color:#020617;
+	width:91%;
+	height:11vw;
+}
+
+.team .team_images1 .Altaf_Hussain img{
+	width:90%;
+	height:12vw;
+	border:2px solid #FFA500;
+	border-radius:18px;
+}
+.team .team_images2{
+	width:60%;
+	height:16vw;
+	background-color:blue;
+	margin-left:380px;
+	display:flex;
+	border:3px solid #FFA500;
+}
+.team .team_images2 .sarfraz{
+	width:40%;
+	height:15vw;
+	background-color:green;
+	text-align:center;
+	padding-top:12px;
+	font-size:19px;
+	color:#e0f2fe;
+	background-color:#1e3a8a; 
+	border-color:#38bdf8; 
+	border:3px solid #172554;
+}
+.team .team_images2 .sarfraz img{
+	width:90%;
+	height:12vw;
+	border:2px solid #FFA500;
+	border-radius:18px;
+}
+.team .team_images2 .sarfraz img:hover{
+	border-color:#020617;
+	width:91%;
+	height:11vw;
+}
+.Clients1{
+	width:100%;
+	height:25vw;
+	/*background-color:green;*/
+}
+.Clients1 h1{
+	text-align:center;
+	font-size:40px;
+	color:red;
+}
+.Clients1{
+	background-image:url(images/screen.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+
+}
+.Clients2{
+	width:100%;
+	height:15vw;
+	background-color:white;
+	display:flex;
+	gap:30px;
+	background-color:black;
+
+}
+
+.Clients2 img{
+	width:12%;
+	height:10vw;
+	gap:40px;
+	background-color:white;
+	margin-left:15px;
+	margin-top:70px;
+	border-radius:20px;
+	border:3px solid #FFA500;
+}
+
+.Clients2_logos{
+	text-align:center;
+	font-size:40px;
+	color:white;
+}
+.Clients2_logos:hover{
+	border:3px solid #020617;
+}
+footer{
+	width:100%;
+	height:3vw;
+	background-color:blanchedalmonda;
+	text-align:center;
+	color:white;
+	padding-top:40px;
+	color:#FFA500;
+	border:3px solid #FFA500;
+}
+
+</style>
+<body>
+ 	<header>
+ 		<img src="images/logo.png">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="https://edc.iba-suk.edu.pk/contactus.html">Contact Us</a></li>
+			</ul>
+		</nav> 		
+ 	</header>
+ 	<div class="main_image">
+ 		<img src="images/slide1.png">
+ 	</div>
+ 	<div class="Section1">
+ 		<h1>EXECUTIVE DEVELOPMENT CENTER - EDC</h1>
+ 		<div class="paragraph"><p>To assist business organization through consultancy and executive education, Sukkur IBA established Executive 	Development Center in 2013, to provide technical and managerial skills development training programme to corporate sector as well as 	 public sector employees. In 2016, The Executive Center shifted to newly established building which is solely for Sukkur IBA 			Executive Development Center.</p>
+ 			<button><a href="https://edc.iba-suk.edu.pk/about-us.html">VIEW MORE</a></button>
+ 		</div>
+	</div>
+	    <div class="Section2">
+	 		<ul>
+		 		<li>10</li>
+		 		<li>15000+</li>
+		 		<li>100+</li>
+	 		</ul>
+		 	<ol>
+				<li>Finished Projects</li>
+				<li>Participants Trained</li>
+				<li>Trainings Conducted</li>
+		 	</ol>
+ 		</div>	
+ 	<div class="main">
+ 		<h1>Our Latest Events</h1>
+ 		<div class="image">
+ 			<img src="images/smeda peshawar.jpg">
+ 			<img src="images/closing.jpg">
+ 			<img src="images/4.jpg">
+ 			<img src="images/spsc chairman.jpg">
+ 			<img src="images/smeda peshawar.jpg">
+ 			<img src="images/lahore BM.jpg">
+ 			<img src="images/lahore-smeda.jpg">
+ 			<img src="images/BM-Lahore.jpg">
+ 			<img src="images/INS-0009.jpg">
+ 			<img src="images/lahore-smeda.jpg">
+ 		</div>
+ 	</div>
+ 	<div class="button">
+ 		<button><a href="https://www.facebook.com/sibaedc">VIEW ALL</a></button>
+ 	</div>
+ 	<div class="Section3">
+		<div class="information1">
+ 			<h1>FOUNDER AND PATRON IN CHIEF</h1>
+ 			<img src="images/vc_msg2.jpg">
+ 		</div>
+ 		<div class="information2">
+ 			<h2>VICE CHANCELLOR'S MESSAGE</h2>
+ 			<img src="images/VC -Msg-Dr Asif.jpg">
+ 		</div>
+ 	</div>
+ 	<div class="team">
+ 		<h1>Our Dedicated Team</h1>
+ 		<div class="team_images1">
+ 			<div class="Altaf_Hussain">
+	 			<img src="images/team/altaf.jpg" >
+	 			<p>Prof. Dr. Altaf Hussain Samo Director EDC</p>
+ 			</div>
+ 			<div class="Altaf_Hussain">
+	 			<img src="images/team/kamran.jpg" >
+	 			<p>Sayed Kamran Naqvi Deputy Manager EDC</p>
+ 			</div>
+ 			<div class="Altaf_Hussain">
+	 			<img src="images/team/male (1).jpg" >
+	 			<p>Safdar Hussain Marketing Assistant</p>
+ 			</div>
+ 			<div class="Altaf_Hussain">
+	 			<img src="images/team/zafar2.jpg" >
+	 			<p>Zafar Iqbal Accounts Officer</p>
+ 			</div>
+ 			<div class="Altaf_Hussain">
+	 			<img src="images/team/sarfraz.jpg" >
+	 			<p>Sarfaraz Ahmed IT Coordinator</p>
+ 			</div>	
+ 		</div>
+	 	<div class="team_images2">
+		 	<div class="sarfraz">
+		 			<img src="images/team/mujtaba	.jpg" >
+		 			<p>Syed Ghulam Mujtaba Program Co-Ordinator</p>
+		 	</div>
+		 	<div class="sarfraz">
+		 			<img src="images/team/Minahil.jpg" >
+		 			<p>Manahil Shaikh CSS Coordinator</p>
+		 	</div>
+		 	<div class="sarfraz">
+		 			<img src="images/team/male (1).jpg" >
+		 			<p>Uzair Abdullah Research Associate</p>
+		 	</div>
+		 </div>
+ 	</div>
+ 	<div class="Clients1">
+ 	</div>
+ 	<h1 class="Clients2_logos">We Worked With Esteemed Clients</h1>
+ 	<div class="Clients2">
+ 		<img src="images/logos/nadra.jpg">
+ 		<img src="images/logos/hbl (1).png">
+ 		<img src="images/logos/hbl.png">
+ 		<img src="images/logos/mw.png">
+ 		<img src="images/logos/nbp.png">
+ 		<img src="images/logos/sbp.png">
+ 		<img src="images/logos/imgi_1_logo-web.png">
+ 	</div>
+	<footer>
+		<h1>Copyright © Sukkur IBA Executive Development Center - EDC 2017. All rights reserved.</h1>
+	</footer>
+</body>
+</html>
